@@ -3,8 +3,8 @@ package org.acme;
 public class Movie {
     
     private String title;
-    private long id;
-    private int partition;
+    private Long id;
+    private Integer partition;
     
     public String getTitle() {
         return title;
@@ -12,16 +12,16 @@ public class Movie {
     public void setTitle(String title) {
         this.title = title;
     }
-    public long getId() {
+    public Long getId() {
         return id;
     }
-    public void setId(long year) {
-        this.id = year;
+    public void setId(Long id) {
+        this.id = id;
     }
-    public int getPartition() {
+    public Integer getPartition() {
         return partition;
     }
-    public void setPartition(int partition) {
+    public void setPartition(Integer partition) {
         this.partition = partition;
     }
 
